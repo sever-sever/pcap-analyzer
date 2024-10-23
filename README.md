@@ -1,6 +1,7 @@
 # pcap-analyzer
 Analyze pcap packets from a file and count top source/destination IPs
-Be default `--mode destination`
+
+By default `--mode destination`
 ```
 # ./analyzer.py --help
 usage: analyzer.py [-h] [--num_hosts NUM_HOSTS] [--mode {destination,source,both}] pcap_file
